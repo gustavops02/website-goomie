@@ -1,24 +1,27 @@
 <template>
-  <h1>oi</h1>
+  <MainPage />
 </template>
-]
+
 <script>
+
+import MainPage from './components/pages/MainPage.vue';
 
 export default {
   name: 'App',
+
   components: {
+    MainPage
   }
+  
 }
 </script>
 
 <style>
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#app {
-}
+body {}
 </style>
