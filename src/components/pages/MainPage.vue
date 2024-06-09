@@ -1,6 +1,11 @@
 <template>
     <div class="container">
-        <NavbarComponent/>
+        <NavbarComponent />
+        <div class="pages">
+            <HomeComponent />
+            <ServicesComponent />
+        </div>
+
     </div>
 
 </template>
@@ -9,10 +14,14 @@
 <script>
 
     import NavbarComponent from "../NavbarComponent.vue";
+    import HomeComponent from "@/components/HomeComponent.vue";
+    import ServicesComponent from "@/components/ServicesComponent.vue";
 
     export default {
         components:{
             NavbarComponent,
+            HomeComponent,
+            ServicesComponent,
         },
 
         data() {
@@ -25,10 +34,13 @@
 
 
 <style>
-    .container {
-        width: 100vw;
-        min-height: 100vh;
-        background: rgb(9,16,29);
-        background: linear-gradient(0deg, rgba(9,16,29,1) 3%, rgba(7,13,23,1) 31%, rgba(7,13,23,1) 50%, rgba(7,13,23,1) 71%, rgba(9,16,29,1) 97%);    
+.container {
+    width: 100vw;
+    min-height: 100vh;    
+    .pages {
+        display: flex;
+        flex-direction: column;
     }
+}
+
 </style>

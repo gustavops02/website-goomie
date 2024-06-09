@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+:root {
+  --var-cor-principal-body: #070D17;
+  --var-cor-navbar: #09101D;
+  --var-cor-principal-font: #00DB80;
+  --var-font-league-spartan: 'League Spartan';
+  --var-font-roboto: 'Roboto';
+  --var-font-montserrat: 'Montserrat';
+}
+
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+button {
+  color: #fff;
+  font-family: var(--var-font-montserrat);
+}

@@ -6,10 +6,10 @@
         </div>
         
         <div class="navbar-nav">
-            <a class="home" href="#">Home</a>
-            <a class="services" href="#">Serviços</a>
-            <a class="about_us" href="#">Sobre</a>
-            <a class="contact" href="#">Contato</a>
+            <a class="home" href="#">home</a>
+            <a class="services" href="#">serviços</a>
+            <a class="about_us" href="#">sobre</a>
+            <a class="contact" href="#">contato</a>
 
         </div>
 
@@ -27,12 +27,6 @@ export default {
     name: 'NavbarComponent',
     components: {
     },
-    data() {
-        return {
-        }
-    },
-    methods: {
-    }
 }
 
 </script>
@@ -40,32 +34,35 @@ export default {
 
 <style scoped>
 .navbar-container {
-    height: 64px;
     display: flex;
     align-items: center;
-    border-bottom: 0.1px solid #171E27;
     justify-content: space-between;
-    padding: 0px 30px 0px 30px;
-    
+    padding: 0 50px 0 50px;
+    height: 64px;
+    border-bottom: 0.1px solid #171E27;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(9, 16, 29, 0.5);
+    backdrop-filter: blur(5px);
+    transition: background-color 0.3s ease-out, backdrop-filter 0.3s ease-out;
 }
 
 .goomie-logo .logo-title {
-    color: #fff;
     font-family: var(--var-font-league-spartan);
-    font-size: 28px;
+    font-size: 30px;
 
 }
 .menu-icon {
-    font-size: 19px;
+    font-size: 22px;
 }
 
-.navbar-nav {
-    font-family: var(--var-font-roboto);
-}
 
 .navbar-nav a {
-    color: #fff;
     text-decoration: none;
+    padding: 0 10px;
 }
 
 </style>
