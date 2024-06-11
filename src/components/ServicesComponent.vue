@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
-        <div class="second-sec">
-            <p class="title">nossos serviços</p>
+    <div id="services" class="container">
+        <div class="services-content">
+            <h2 class="title">nossos serviços</h2>
 
             <div class="services">
                 <div class="card" :class="{'card-right': service.align === 'right'}" v-for="(service, index) in services" :key="index">
@@ -48,12 +48,12 @@ export default {
 </script>
 
 <style scoped>
-    .container .second-sec .title {
+    .container .services-content .title {
         text-align: center;
         font-size: 30px;
     }
 
-    .second-sec .services {
+    .services-content .services {
         margin-top: 30px;
     }
 
@@ -122,7 +122,6 @@ export default {
         flex-direction: row-reverse;
 
     }
-
 
     .service-image img {
         width: 300px;
