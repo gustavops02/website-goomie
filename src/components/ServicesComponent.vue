@@ -51,6 +51,7 @@ export default {
     .container .services-content .title {
         text-align: center;
         font-size: 30px;
+        color: var(--var-cor-principal-font);
     }
 
     .services-content .services {
