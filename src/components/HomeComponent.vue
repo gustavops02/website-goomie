@@ -1,6 +1,6 @@
 <template>
-    <div id="home" class="home-content">
-        <div class="first-sec">
+    <div id="home" class="container">
+        <div class="home-content">
             <h1 class="logo">Goomie</h1>
 
             <h1 class="catchphrase">
@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style scoped>
-.home-content {
+.container {
     padding: 50px;
     height: calc(100vh - 55px);
     display: flex;
@@ -51,32 +51,32 @@ export default {
     margin-top: 70px;
 }
 
-.home-content .first-sec {
+.container .home-content {
     display: flex;
     flex-direction: column;
     gap: 30px;
 
 }
 
-.home-content .logo {
+.container .logo {
     font-family: var(--var-font-league-spartan);
     color: var(--var-cor-principal-font);
     text-align: center;
     font-size: 60px;
 }
 
-.home-content .catchphrase {
+.container .catchphrase {
     color: white;
     font-size: 20px;
     text-align: center;
 }
 
-.home-content .char {
+.container .char {
     opacity: 0;
     animation: fadeIn 1s forwards;
 }
 
-.home-content .char.highlight {
+.container .char.highlight {
     color: var(--var-cor-principal-font);
 }
 
