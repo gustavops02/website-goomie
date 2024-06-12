@@ -67,7 +67,7 @@ export default {
     }
 
     .services .card button {
-        font-family: var(--var-font-montserrat);
+
         font-size: 16px;
         padding: 13px 25px 13px 25px;
         margin-top: 40px;

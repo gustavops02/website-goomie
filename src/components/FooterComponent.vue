@@ -27,6 +27,9 @@
             <div class="vertical-line"></div>
             <div class="right-section">
                 <h1 class="logo">Goomie</h1>
+                <p class="description-company">
+                    CNPJ: 51.518.096/0001-15 - Niterói, Rio de Janeiro
+                </p>
             </div>
         </footer>
     </div>
@@ -40,12 +43,13 @@ export default {
 
 <style scoped>
 .footer-container {
+    margin-top: 250px;
     width: 100%;
 }
 
 .footer {
-    height: 400px;
-    margin-top: 150px;
+    height: 200px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,6 +60,9 @@ export default {
 .right-section {
     flex: 1;
     padding: 0 70px;
+}
+
+.left-section {
     text-align: center;
 }
 
@@ -76,8 +83,13 @@ export default {
 
 .right-section .logo {
     font-family: var(--var-font-league-spartan);
-    font-size: 70px;
+    font-size: 40px;
     color: var(--var-cor-principal-font);
+    cursor: default;
+}
+
+.right-section .description-company {
+    font-size: 16px;
     cursor: default;
 }
 
