@@ -3,23 +3,23 @@
         <footer class="footer">
             <div class="left-section">
 
-                <a href="https://www.instagram.com/goomiesolutions" class="instagram-logo">
+                <a href="https://www.instagram.com/goomiesolutions" target="_blank" class="instagram-logo">
                     <img src="@/assets/img/instagram.svg" alt="instagram" class="social-icon">
                 </a>
 
-                <a href="https://www.linkedin.com/company/goomie/" class="linkedin-logo">
+                <a href="https://www.linkedin.com/company/goomie/" target="_blank" class="linkedin-logo">
                     <img src="@/assets/img/linkedin.svg" alt="linkedin" class="social-icon">
                 </a>
 
-                <a href="https://wa.me/5521967445952?text=Olá,%20Gustavo!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20serviços%20da%20Goomie." class="whatsapp-logo">
+                <a href="https://wa.me/5521967445952?text=Olá,%20Gustavo!%20Tenho%20interesse%20em%20saber%20mais%20sobre%20os%20serviços%20da%20Goomie." target="_blank" class="whatsapp-logo">
                     <img src="@/assets/img/whatsapp.svg" alt="whatsapp" class="social-icon">
                 </a>
 
-                <a href="mailto:tech@goomie.com.br?subject=Quero Conhecer os Serviços da Goomie" class="mail-logo">
+                <a href="mailto:tech@goomie.com.br?subject=Quero Conhecer os Serviços da Goomie" target="_blank" class="mail-logo">
                     <img src="@/assets/img/mail.png" alt="mail" class="social-icon">
                 </a>
 
-                <a href="https://github.com/goomie-solutions" class="github-logo">
+                <a href="https://github.com/goomie-solutions" target="_blank" class="github-logo">
                     <img src="@/assets/img/github.svg" alt="github" class="social-icon">
                 </a>
 
