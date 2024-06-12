@@ -63,12 +63,14 @@ export default {
     color: var(--var-cor-principal-font);
     text-align: center;
     font-size: 60px;
+    cursor: default;
 }
 
 .container .catchphrase {
     color: white;
     font-size: 20px;
     text-align: center;
+    cursor: default;
 }
 
 .container .char {
