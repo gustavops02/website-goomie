@@ -43,9 +43,10 @@ export default {
 
 <style scoped>
 .container {
-    height: calc(100vh - 64px);
+    height: 70vh;
     display: flex;
-    margin-top: 150px;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container .home-content {
