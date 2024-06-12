@@ -17,7 +17,7 @@ export default {
     data() {
         return {
             catchphrase: 'sua visão, nosso código: juntos construímos o futuro.'.split(''),
-            highlightWords: [] // Para armazenar os índices das letras que devem ser destacadas
+            highlightWords: []
         };
     },
     mounted() {
@@ -26,7 +26,6 @@ export default {
             char.style.animationDelay = `${index * 0.03}s`;
         });
 
-        // Marcar os índices das letras para "código" e "futuro"
         const phrase = this.catchphrase.join('');
         const highlight = ["código", "futuro"];
         highlight.forEach(word => {
@@ -44,18 +43,15 @@ export default {
 
 <style scoped>
 .container {
-    padding: 50px;
-    height: calc(100vh - 55px);
+    height: calc(100vh - 64px);
     display: flex;
-    justify-content: center;
-    margin-top: 70px;
+    margin-top: 150px;
 }
 
 .container .home-content {
     display: flex;
     flex-direction: column;
     gap: 30px;
-
 }
 
 .container .logo {

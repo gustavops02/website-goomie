@@ -40,7 +40,6 @@ export default {
     },
     methods: {
         getServiceImage(img) {
-            // Use require to properly resolve the image path
             return require('../assets/img/' + img + '.svg');
         }
     }
@@ -55,7 +54,7 @@ export default {
     }
 
     .services-content .services {
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .services .card {
